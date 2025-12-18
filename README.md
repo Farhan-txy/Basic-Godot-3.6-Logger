@@ -1,6 +1,9 @@
 # Universal Logger — Godot 3.6
 I Vibecoded this entire thing with chatGPT 5.2 and it's surprisingly works, i just had to minor debug it, so i declare that following codes in here are NOT MINE.
 
+Oh yeah this repo included the premade ui for live logging in-runtime so yea have fun, if you just wanna use core logger backend, import Logger.gd to your project!
+you should be able to easily implement your own custom ui if you want.
+
 Session-based, level-based logger for Godot 3.5–3.6.
 Designed for tools and applications.
 
@@ -40,7 +43,7 @@ func _on_button_pressed():
    Logger.info("Button pressed")
 ```
 -Output will be:
-```markdown
+```
 [YYYY-MM-DD HH:MM:SS] [INFO] Button pressed 
 ```
 
