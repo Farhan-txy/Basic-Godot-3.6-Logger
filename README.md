@@ -35,12 +35,12 @@ Logger.warn("Missing texture")
 Logger.error("Export failed")
 Logger.fatal("Critical error", "", true)
 ```
-```example
+```gdscript
 func _on_button_pressed():
    Logger.info("Button pressed")
 ```
 -Output will be:
-```
+```markdown
 [YYYY-MM-DD HH:MM:SS] [INFO] Button pressed 
 ```
 
