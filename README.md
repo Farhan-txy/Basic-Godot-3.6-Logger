@@ -34,14 +34,23 @@ Logger.info("Start conversion")
 Logger.warn("Missing texture")
 Logger.error("Export failed")
 Logger.fatal("Critical error", "", true)
+```
+```example
+func _on_button_pressed():
+   Logger.info("Button pressed")
+```
+-Output will be:
+```
+[YYYY-MM-DD HH:MM:SS] [INFO] Button pressed 
+```
 
-```
-##Log Format
-```
+
+## Log Format
+```raw text
 [YYYY-MM-DD HH:MM:SS] [LEVEL] Message (Node: NodeName)
 
 ```
-##Notes
+## Notes
 -Logs stored in `res://logs/` (use `user://logs/` for exports)
 -Logger does not handle input or UI
 -Suitable for reuse across projects
