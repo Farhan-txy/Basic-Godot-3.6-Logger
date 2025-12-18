@@ -55,5 +55,5 @@ func _on_button_pressed():
 -Logger does not handle input or UI
 -Suitable for reuse across projects
 
-##Compatibility
+## Compatibility
 Godot 3.5–3.6 
